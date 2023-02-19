@@ -8,7 +8,7 @@ Write tests for the following, and then make the tests pass!
 
   <li>A <code>calculator</code> object that contains functions for the basic operations: <code>add</code>, <code>subtract</code>, <code>divide</code>, and <code>multiply</code>. Each of these functions should take two numbers and  return the correct calculation.</li>
 
-<li>A <code>caesarCipher</code> function that takes a string and a shift factor and returns it with each character “shifted”. Read more about how a Caesar cipher works on this website.
+<li>A <code>caesarCipher</code> function that takes a string and a shift factor and returns it with each character “shifted”. Read more about how a Caesar cipher works on [this website](http://practicalcryptography.com/ciphers/caesar-cipher/).
   <ul>
     <li>Don’t forget to test wrapping from <code>z</code> to <code>a</code>.</li>
     <li>Don’t forget to test keeping the same case.</li>
@@ -17,7 +17,7 @@ Write tests for the following, and then make the tests pass!
   </ul>
 </li>
   <li>An analyzeArray function that takes an array of numbers and returns an object with the following properties: average, min, max, and length.
-    ```
+  ```
     const object = analyzeArray([1,8,3,4,2,6]);
 
     object == {
