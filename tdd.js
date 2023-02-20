@@ -31,6 +31,6 @@ function caesarCipher(str, key) {
     }
   
     return result;
-  }
+};
 
 module.exports = { capitalize, reverseString, calculator, caesarCipher };
